@@ -47,6 +47,8 @@
 # changes nothing. The rejection is logged by system_server (PackageManager), not only by the
 # com.android.packageinstaller verifier.
 #
+# Disable the com.android.packageinstaller app to install any applications, including a launcher. Be sure to re-enable it after you have finished installing your apps.
+#
 # The only channel that installs normal APKs is a USB stick through 电视卫士 (com.tcl.guard).
 # Driving the system installer UI over adb gets further but still fails: file:// URIs are refused
 # outright on Android 14, and a MediaStore content:// URI
